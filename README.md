@@ -13,10 +13,10 @@ An open tool that predicts how heavily a new public EV charger would be used in 
 
 | File | What it is |
 |---|---|
-| `data/raw/tg_ev_monthly_master.csv` | Original data, unchanged |
-| `data/processed/sections_monthly.csv` | One row per section per month, initial greater-Hyderabad study area |
-| `data/processed/negative_rows_removed.csv` | The 13 negative-unit rows removed, kept for audit |
-| `scripts/day1_build_sections_monthly.py` | Rebuilds both processed files from the raw data |
+| `tg_ev_monthly_master.csv` | Original data, unchanged |
+| `sections_monthly.csv` | One row per section per month, initial greater-Hyderabad study area |
+| `negative_rows_removed.csv` | The 13 negative-unit rows removed, kept for audit |
+| `day1_build_sections_monthly.py` | Rebuilds both processed files from the raw data |
 
 ## Day 1 cleaning rules
 
